@@ -1,0 +1,117 @@
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h4 class="modal-title" id="myModalLabel">Registrar Item de Formato</h4>
+    </div>
+    <div class="modal-body">
+	    <form>
+	        <div class="row">
+	            <div class="col-md-6">
+	                <div class="form-group">
+					    <label for="hora">Hora:</label>
+					    <input type="text" class="form-control" name="hora" >
+					</div>
+					<div class="form-group">
+					    <label for="puesto">Puesto:</label>
+					    <input type="text" class="form-control" name="puesto">
+					</div>
+					<div class="form-group">
+					    <label for="especie">Especie:</label>
+					    <select name="especie" class="form-control">
+					    	<option> (Seleccione una especie) </option>
+					    	<option>Bonito</option>
+					    	<option>Caballa</option>
+					    	<option>Jurel</option>
+					    </select>
+					</div>
+	            </div>
+		    </div>
+
+		    <div class="row">
+	            <div class="col-md-6">
+	                <div class="form-group">
+					    <label for="estado">Estado del Recurso:</label>
+					    <select name="estado" class="form-control">
+					    	<option> (Seleccione estado) </option>
+					    	<option>P1</option>
+					    	<option>P2</option>
+					    </select>
+					</div>
+	            </div>
+	            <div class="col-md-6">
+	                <div class="form-group">
+					    <label for="presen">Presentación:</label>
+					    <select name="presen" class="form-control">
+					    	<option> (Seleccione Presentación) </option>
+					    	<option>Entero</option>
+					    	<option>Evicerado</option>
+					    	<option>Filete</option>
+					    	<option>Desvalvado</option>
+					    	<option>Media Valva</option>
+					    </select>
+					</div>	
+	            </div>
+		    </div>
+
+		    <div class="row">
+	            <div class="col-md-4">
+	                <div class="form-group">
+					    <label for="min">Precio min. (S/.):</label>
+					    <input type="text" class="form-control" name="min">
+					</div>
+	            </div>
+	            <div class="col-md-4">
+	                <div class="form-group">
+					    <label for="max">Precio max. (S/.):</label>
+					    <input type="text" class="form-control" name="max">
+					</div>
+	            </div>
+	            <div class="col-md-4">
+	                <div class="form-group">
+					    <label for="medida">Por:</label>
+					    <select name="medida" class="form-control">
+					    	<option> (Seleccione unidad) </option>
+					    	<option>Kilo</option>
+					    	<option>Docena</option>
+					    	<option>Unidad</option>
+					    	<option>Manojo</option>
+					    </select>
+					</div>
+	            </div>
+		    </div>
+
+		    <div class="row">
+	            <div class="col-md-6">
+	            	<div class="form-group">
+					    <label for="tamanio">Procedencia:</label>
+					    <input type="text" class="form-control" name="procedencia">
+					</div>
+	            </div>
+	            <div class="col-md-6">
+	            	<div class="form-group">
+					    <label for="tamanio">Tamaño (cm):</label>
+					    <input type="text" class="form-control" name="tamanio">
+					</div>
+	            </div>
+		    </div>
+
+		    
+
+		    <div class="row">
+	            <div class="col-md-12">
+					<div class="form-group">
+					    <label for="obs">Observaciones:</label>
+					    <textarea rows="4" class="form-control" name="obs"></textarea>
+					</div>
+	            </div>
+	        </div>
+		</form>
+    </div>
+    <div class="modal-footer">
+    	<button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+    	<button type="button" class="btn btn-primary" data-toggle="modal" onclick="confirmar();">Grabar y crear otro</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" onclick="confirmar();">Grabar</button>
+    </div>
+  </div>
+</div>
