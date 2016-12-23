@@ -24,9 +24,10 @@
 
 	<div class="container">
 		<ul class="nav nav-pills">
-			<li class="navbar-right"><img alt="dedepa" src="assets/dedepa.png" /></li>
+			<li class="navbar-right"><img height="68" alt="dedepa" src="assets/dedepa.png" /></li>
 			<li><img alt="produce" src="assets/logo.png" /></li>
 		</ul>
+		<br>
 
 		<div class="navbar navbar-inverse navbar-default">
 		  <div class="container-fluid">
@@ -71,53 +72,43 @@
 	</div>
 
 	<div class="container body-content">
-		<form class="form-inline" id="form-inicial"> <!-- FORMULARIO INICIAL -->
+		<form id="form-inicial"> <!-- FORMULARIO INICIAL -->
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-3">
 				    <div class="form-group">                            
 				        <label for="exampleInputEmail1">Formato: </label>
-				    </div>
-				    <div class="form-group">                            
 				        <select id="form" class="form-control" >
 				        	<option value="mayor">Formato Mayorista</option>
 				        	<option value="menor">Formato Minorista</option>
 				        </select>
 				    </div>
+				    <div class="form-group">                            
+				        
+				    </div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-3">
 				    <div class="form-group">                            
 				        <label for="exampleInputEmail1">Mercado: </label>
-				    </div>
-				    <div class="form-group">                            
 				        <select class="form-control" >
 				        	<option>Minorista ATE</option>
 				        </select>
 				    </div>
 				</div>
-			</div>
-			<hr>
-			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-3">
 				    <div class="form-group">                            
 				        <label for="exampleInputEmail1">Fecha: </label>
-				    </div>
-				    <div class="form-group">                            
 				        <input type="date" class="form-control" id="date" >
 				    </div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-3">
 				    <div class="form-group">                            
 				        <label for="exampleInputEmail1">Hora Inicio Recopilación: </label>
-				    </div>
-				    <div class="form-group">                            
 				        <input type="time" class="form-control" id="time" >
 				    </div>
 				</div>
-				<div class="col-md-3">
-					<button onclick='openModalFormato();' type="button" class="btn btn-primary">Crear Formato</button>
-				</div>
 			</div>
-			<hr>
+			<button onclick='openModalFormato();' type="button" class="btn btn-primary pull-right">Crear Formato</button>
+
 		</form><!-- FIN FORMULARIO INICIAL -->
 		
 
