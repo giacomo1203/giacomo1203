@@ -72,6 +72,12 @@ input[type="checkbox"].input-validation-error {
 .texto-3{
     width:700px !important;   
 }
+
+.banner-home{
+    opacity: .35;
+}
+
+
 /*
 .modal-body .input-group-sm{
     height:1em !important;
