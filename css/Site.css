@@ -101,3 +101,25 @@ input[type="checkbox"].input-validation-error {
     bottom:0 !important;
 }
     */
+
+/*********HIDE COLUMN TABLET AND PHONES************/
+@media screen and (min-width:501px) and (max-width:999px) {
+    table tr td:nth-child(2),
+    table tr th:nth-child(2),
+    table tr td:nth-child(3),
+    table tr th:nth-child(3) {
+         display: none;
+    }
+}
+@media screen and (max-width:500px){
+    table tr td:nth-child(4),
+    table tr th:nth-child(4),
+    table tr td:nth-child(2),
+    table tr th:nth-child(2),
+    table tr td:nth-child(3),
+    table tr th:nth-child(3) {
+         display: none;
+    }
+}
+
+
