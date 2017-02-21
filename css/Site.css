@@ -7,6 +7,13 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    position: relative;
+}
+.home_btn{
+    position: absolute;
+    left: 4rem;
+    top: 16rem;
+    z-index: 999;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
