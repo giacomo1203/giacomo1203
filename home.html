@@ -150,11 +150,17 @@
                                     </li>
                                     <li class="nav-item parent"><a href="#" role="button" aria-expanded="false" class="nav-link"><span class="icon s7-settings"></span><span>Configuración</span></a>
                                       <ul class="mai-nav-tabs-sub mai-sub-nav nav">
-                                                  <li class="nav-item"><a href="email-inbox.html" class="nav-link"><span class="icon s7-mail"></span><span class="name">Correo</span></a>
+                                                  <li class="nav-item"><a href="javascript:setPage('usuario');" class="nav-link"><span class="icon s7-mail"></span><span class="name">Usuario</span></a>
                                                   </li>
-                                                  <li class="nav-item"><a href="email-compose.html" class="nav-link"><span class="icon s7-mail"></span><span class="name">Crear Correo</span></a>
+                                                  <li class="nav-item"><a href="javascript:setPage('empresa');" class="nav-link"><span class="icon s7-mail"></span><span class="name">Empresa</span></a>
                                                   </li>
-                                                  <li class="nav-item"><a href="pages-invoice.html" class="nav-link"><span class="icon s7-wallet"></span><span class="name">Invoice</span></a>
+                                                  <li class="nav-item"><a href="javascript:setPage('lusuarios');" class="nav-link"><span class="icon s7-wallet"></span><span class="name">Listado de Usuarios</span></a>
+                                                  </li>
+                                                  <li class="nav-item"><a href="javascript:setPage('horarios');" class="nav-link"><span class="icon s7-wallet"></span><span class="name">Horarios</span></a>
+                                                  </li>
+                                                  <li class="nav-item"><a href="javascript:setPage('servicios');" class="nav-link"><span class="icon s7-wallet"></span><span class="name">Servicios de Sunat</span></a>
+                                                  </li>
+                                                  <li class="nav-item"><a href="javascript:setPage('correos');" class="nav-link"><span class="icon s7-wallet"></span><span class="name">Correos de Notificaciones</span></a>
                                                   </li>
                                                   
                                                   
@@ -238,6 +244,12 @@
         }
         if(page=='listado'){
           $(".main-content").load('pages/listado.html');
+        }
+        if(page=='usuario'){
+          $(".main-content").load('pages/usuario.html');
+        }
+        if(page=='empresa'){
+          $(".main-content").load('pages/empresa.html');
         }
       }
 
