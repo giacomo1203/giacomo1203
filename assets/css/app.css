@@ -16061,6 +16061,16 @@ div.dataTables_wrapper {
     border-right-width: 0;
     padding: 23px 0
 }
+
+
+.customspan span {
+
+	color: #57c2f4;
+}
+
+.customspan span:hover {
+	color: #10a8ef;
+}
 .invoice-payment-details p {
     margin-bottom: .538462rem
 }
