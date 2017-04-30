@@ -129,7 +129,7 @@
                                     </li>
                                     <li class="nav-item parent"><a href="#" role="button" aria-expanded="false" class="nav-link"><span class="icon s7-rocket"></span><span>Subir Facturas</span></a>
                                       <ul class="mai-nav-tabs-sub mai-sub-nav nav">
-                                                  <li class="nav-item"><a href="javascript:setPage('___');" class="nav-link"><span class="name">Unidad</span></a>
+                                                  <li class="nav-item"><a href="javascript:setPage('create');" class="nav-link"><span class="name">Unidad</span></a>
                                                   </li>
                                                 <li class="nav-item"><a href="javascript:setPage('masive');" class="nav-link"><span class="name">Paquete</span></a>
                                                   </li>
@@ -238,6 +238,9 @@
         }
         if(page=='masive'){
           $(".main-content").load('pages/masive.html');
+        }
+        if(page=='create'){
+          $(".main-content").load('pages/create.html');
         }
         if(page=='factura'){
           $(".main-content").load('pages/list-factura.html');
