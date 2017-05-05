@@ -15929,7 +15929,6 @@ div.dataTables_wrapper {
 
 	background-image: url(../img/m4.jpg);
 	background-repeat: no-repeat;
-	background-position: center center;
 	background-size: cover;
 
 }
@@ -16064,7 +16063,7 @@ div.dataTables_wrapper {
 
 
 .customspan span {
-
+    outline: none !important;
 	color: #57c2f4;
 }
 
@@ -18349,3 +18348,20 @@ fieldset[disabled] .full-calendar .fc-button:hover {
 .week-chart.widget.widget-fullwidth .widget-head {
     margin-bottom: 3rem
 }
+
+/****CUSTOMS****/
+.toRemove {
+    text-align: right;
+    cursor: pointer;
+    color: red;
+    font-size: 1.4rem;
+    padding-left: 2rem !important;
+}
+.textLeft {
+    text-align: left !important;
+}
+.formItem {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
